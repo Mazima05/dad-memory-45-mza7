@@ -17,7 +17,7 @@ const pages = [
     kicker: "A message from Mom",
     title: "A voice from the heart",
     text:" ",
-    image:"assets/grandma.jpeg",
+    image:"assets/grandma.png",
     audio: "assets/grandma-message.mp3",
     imageAlt: "Grandma's photograph",
     signature: "With all my love, Son"
@@ -27,7 +27,7 @@ const pages = [
   kicker: "A message from Dad",
   title: "Words from a lifetime of love",
   text: "The day you came into my life, my heart found its greatest joy. Watching you grow has been the greatest privilege of my life, and no matter how old you become, you will always be my little boy and my greatest blessing.",
-  image: "assets/grandpa.jpeg",
+  image: "assets/grandpa.png",
   imageAlt: "Grandpa's photograph",
   signature: "With love, Dad"
 },
@@ -37,7 +37,7 @@ const pages = [
     kicker: "A memory from Fatin",
     title: "Something words can never describe",
     text: "My one and only, it's such an adorable feeling to share (again), one of your birthdays among many, always proud and excited to see you in better places, you are great and I hope you know it",
-    image:"assets/fatin.jpeg",
+    image:"assets/fatin.png",
     imageAlt: "Fatin's memory photograph placeholder",
     signature: "With all my love, Fatin"
   },
@@ -46,7 +46,7 @@ const pages = [
   kicker: "A message from Noor Alhuda",
   title: "For being the wall",
   text: "Thank you for being the father figure I needed, for always believing in me and creating so many opportunities for my future. I will always be grateful for your love, support, and everything you've done for me.",
-  image: "assets/noor.jpeg",
+  image: "assets/noor.png",
   imageAlt: "Noor Alhuda's photograph",
   signature: "With all appreciation, Noor Alhuda"
 },
@@ -83,7 +83,7 @@ const pages = [
     kicker: "A memory from Yaman",
     title: "My daddy is a superior dad !",
     text: "Dad, I'm not good with expresing myself but I really want you to know that I am super proud of you, and by the way, I LOVE YOU DADDDD",
-    image: "assets/yaman.jpeg",
+    image: "assets/yaman.png",
     imageAlt: "Yaman's memory photograph placeholder",
     signature: "With love, Yaman"
   },
