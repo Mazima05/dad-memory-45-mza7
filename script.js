@@ -83,7 +83,7 @@ const pages = [
     kicker: "A memory from Yaman",
     title: "My daddy is a superior dad !",
     text: "Dad, I'm not good with expresing myself but I really want you to know that I am super proud of you, and by the way, I LOVE YOU DADDDD",
-    image: "assets/yaman.jpeg",,
+    image: "assets/yaman.jpeg",
     imageAlt: "Yaman's memory photograph placeholder",
     signature: "With love, Yaman"
   },
