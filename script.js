@@ -22,15 +22,15 @@ const pages = [
     imageAlt: "Grandma's photograph",
     signature: "With all my love, Son"
   },
-  {
-    type: "memory",
-    kicker: "A message from Dad",
-    title: "Words from a lifetime of love",
-    text: "The day you came into my life, my heart found its greatest joy. Watching you grow has been the greatest privilege of my life, and no matter how old you become, you will always be my little boy and my greatest blessing.",
-    image: "assets/grandpa.jpeg",
-    imageAlt: "Grandpa's message photograph placeholder",
-    signature: "With love, Son"
-  },
+{
+  type: "memory",
+  kicker: "A message from Dad",
+  title: "Words from a lifetime of love",
+  text: "The day you came into my life, my heart found its greatest joy. Watching you grow has been the greatest privilege of my life, and no matter how old you become, you will always be my little boy and my greatest blessing.",
+  image: "assets/grandpa.jpeg",
+  imageAlt: "Grandpa's photograph",
+  signature: "With love, Dad"
+},
 
   {
     type: "memory",
@@ -41,15 +41,15 @@ const pages = [
     imageAlt: "Fatin's memory photograph placeholder",
     signature: "With all my love, Fatin"
   },
-  {
-    type: "memory",
-    kicker: "A message from Noor Alhuda",
-    title: "For being the wall",
-    text: "Thank you for being the father figure I needed ,for always believing in me and creating so many opportunities for my future. I will always be grateful for your love, support, and everything you've done for me.",
-    image: "assets/noor.jpeg",
-    imageAlt: "Noor Alhuda's message photograph placeholder",
-    signature: "With all appreciation, Noor Alhuda"
-  },
+{
+  type: "memory",
+  kicker: "A message from Noor Alhuda",
+  title: "For being the wall",
+  text: "Thank you for being the father figure I needed, for always believing in me and creating so many opportunities for my future. I will always be grateful for your love, support, and everything you've done for me.",
+  image: "assets/noor.jpeg",
+  imageAlt: "Noor Alhuda's photograph",
+  signature: "With all appreciation, Noor Alhuda"
+},
 
   {
     type: "memory",
@@ -87,13 +87,13 @@ const pages = [
     imageAlt: "Yaman's memory photograph placeholder",
     signature: "With love, Yaman"
   },
-  {
-    type: "final",
-    kicker: "Our gift to you",
-    title: "Happy 46th Birthday, Dad",
-    text: "There is nothing we could ever buy that would equal what our father means to us — not even a little. So instead of trying to find the perfect gift, we gathered our memories, our voices, and the love you have given us. It may not be enough to repay you, but it felt like the right place to start.",
-    signature: "Here’s to every memory behind us — and every beautiful one still ahead."
-  },
+{
+  type: "final",
+  kicker: "Our gift to you",
+  title: "Happy 46th Birthday, Dad",
+  text: "There is nothing we could ever buy that would equal what our father means to us — not even a little. So instead of trying to find the perfect gift, we gathered our memories, our voices, and the love you have given us. It may not be enough to repay you, but it felt like the right place to start.",
+  signature: "Here’s to every memory behind us — and every beautiful one still ahead."
+},
   {
     type: "back",
     kicker: "With love, always",
