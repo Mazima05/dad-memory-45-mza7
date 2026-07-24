@@ -37,7 +37,7 @@ const pages = [
     kicker: "A memory from Fatin",
     title: "Something words can never describe",
     text: "My one and only, it's such an adorable feeling to share (again), one of your birthdays among many, always proud and excited to see you in better places, you are great and I hope you know it",
-    image:"assets/fatin.png",
+    image: "assets/fatin.png",
     imageAlt: "Fatin's memory photograph placeholder",
     signature: "With all my love, Fatin"
   },
@@ -56,7 +56,7 @@ const pages = [
     kicker: "A memory from Maryam",
     title: "For always pushing us to prefection",
     text: "Happy birthday first of all, second thank you for making my standards high enough to always do everything perfectly, just as you do.",
-    image: "assets/maryam.jpeg",
+    image: "assets/Maryam.jpeg",
     imageAlt: "Maryam's memory photograph placeholder",
     signature: "With all my love, Maryam"
   },
@@ -65,7 +65,7 @@ const pages = [
     kicker: "A memory from Mohammed Almahdi",
     title: "Happy birthday dad !",
     text: "I cannot tell you how much greatful I am to be your son, thank you for being always proud and believing in me no matter what the results are.",
-    image:"assets/mohammed.png",
+    image: "assets/mohammed.png",
     imageAlt: "Mohammed Almahdi's memory photograph placeholder",
     signature: "With love, Mohammed Almahdi"
   },
