@@ -686,3 +686,111 @@ body.modal-open {
 .page-inner--audio-memory .page-signature {
   margin-top: auto;
 }
+
+
+
+
+/* PHONE FIX — keep this at the very bottom of styles.css */
+@media (max-width: 720px) {
+  .modal {
+    align-items: stretch;
+  }
+
+  .modal__dialog {
+    width: 100vw;
+    height: 100dvh;
+    max-height: none;
+    padding: 12px 8px;
+    border-radius: 0;
+    overflow-y: auto;
+  }
+
+  .book-heading {
+    padding: 4px 42px 10px 4px;
+  }
+
+  .book-heading h2 {
+    font-size: 1.8rem;
+  }
+
+  .book-stage {
+    padding: 4px 0 10px;
+    overflow: hidden;
+  }
+
+  .book {
+    width: calc(100vw - 16px);
+    height: min(62dvh, 430px);
+    aspect-ratio: auto;
+  }
+
+  .book-page,
+  .turning-sheet__face {
+    overflow-y: auto;
+  }
+
+  .page-inner,
+  .page-inner--audio-memory {
+    padding: 12px 10px;
+  }
+
+  .memory-photo,
+  .page-inner--audio-memory .memory-photo {
+    height: 38%;
+    min-height: 0;
+  }
+
+  .page-title {
+    font-size: clamp(1.05rem, 5vw, 1.45rem);
+    line-height: 1;
+  }
+
+  .page-text,
+  .final-note {
+    margin-top: 7px;
+    font-size: clamp(0.72rem, 3.1vw, 0.92rem);
+    line-height: 1.25;
+  }
+
+  .page-kicker {
+    margin-bottom: 5px;
+    font-size: 0.53rem;
+    letter-spacing: 0.1em;
+  }
+
+  .page-signature {
+    font-size: 0.78rem;
+  }
+
+  .audio-card--real {
+    margin-top: 7px;
+    padding: 6px;
+  }
+
+  .audio-card--real audio {
+    height: 34px;
+  }
+
+  .book-controls {
+    position: sticky;
+    bottom: 0;
+    grid-template-columns: 1fr 1fr;
+    padding: 8px 4px 2px;
+    background: #2e1f1b;
+  }
+
+  .book-controls p,
+  .page-counter {
+    display: none;
+  }
+
+  .nav-button {
+    padding: 10px 12px;
+    font-size: 0.82rem;
+  }
+
+  .close-button {
+    position: fixed;
+    z-index: 50;
+  }
+}
