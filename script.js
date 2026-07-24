@@ -37,7 +37,7 @@ const pages = [
     kicker: "A memory from Fatin",
     title: "Something words can never describe",
     text: "My one and only, it's such an adorable feeling to share (again), one of your birthdays among many, always proud and excited to see you in better places, you are great and I hope you know it",
-    image: "assets/fatin.png",
+    image: "assets/fatin.jpeg",
     imageAlt: "Fatin's memory photograph placeholder",
     signature: "With all my love, Fatin"
   },
