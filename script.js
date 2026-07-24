@@ -17,9 +17,9 @@ const pages = [
     kicker: "A message from Mom",
     title: "A voice from the heart",
     text:" ",
-    image: "/Users/maryaza3/Desktop/dad_birthday_memory_site_v3/assets/Screenshot 2026-07-24 at 5.16.32 PM.png",
+    image:"assets/grandma.jpeg",
+    audio: "assets/grandma-message.mp3",
     imageAlt: "Grandma's photograph",
-    audio: "/Users/maryaza3/Desktop/dad_birthday_memory_site_v3/assets/grandma-message.mp3",
     signature: "With all my love, Son"
   },
   {
@@ -27,7 +27,7 @@ const pages = [
     kicker: "A message from Dad",
     title: "Words from a lifetime of love",
     text: "The day you came into my life, my heart found its greatest joy. Watching you grow has been the greatest privilege of my life, and no matter how old you become, you will always be my little boy and my greatest blessing.",
-    image: "/Users/maryaza3/Desktop/dad_birthday_memory_site_v3/assets/Screenshot 2026-07-24 at 5.54.18 PM.png",
+    image: "assets/grandpa.jpeg",
     imageAlt: "Grandpa's message photograph placeholder",
     signature: "With love, Son"
   },
@@ -37,7 +37,7 @@ const pages = [
     kicker: "A memory from Fatin",
     title: "Something words can never describe",
     text: "My one and only, it's such an adorable feeling to share (again), one of your birthdays among many, always proud and excited to see you in better places, you are great and I hope you know it",
-    image: "/Users/maryaza3/Desktop/dad_birthday_memory_site_v3/assets/Screenshot 2026-07-24 at 5.50.16 PM.png",
+    image:"assets/fatin.jpeg",
     imageAlt: "Fatin's memory photograph placeholder",
     signature: "With all my love, Fatin"
   },
@@ -46,7 +46,7 @@ const pages = [
     kicker: "A message from Noor Alhuda",
     title: "For being the wall",
     text: "Thank you for being the father figure I needed ,for always believing in me and creating so many opportunities for my future. I will always be grateful for your love, support, and everything you've done for me.",
-    image: "/Users/maryaza3/Desktop/dad_birthday_memory_site_v3/assets/Screenshot 2026-07-24 at 5.18.49 PM.png",
+    image: "assets/noor.jpeg",
     imageAlt: "Noor Alhuda's message photograph placeholder",
     signature: "With all appreciation, Noor Alhuda"
   },
@@ -56,7 +56,7 @@ const pages = [
     kicker: "A memory from Maryam",
     title: "For always pushing us to prefection",
     text: "Happy birthday first of all, second thank you for making my standards high enough to always do everything perfectly, just as you do.",
-    image: "/Users/maryaza3/Desktop/dad_birthday_memory_site_v3/assets/IMG_1480.jpeg",
+    image: "assets/maryam.jpeg",
     imageAlt: "Maryam's memory photograph placeholder",
     signature: "With all my love, Maryam"
   },
@@ -65,7 +65,7 @@ const pages = [
     kicker: "A memory from Mohammed Almahdi",
     title: "Happy birthday dad !",
     text: "I cannot tell you how much greatful I am to be your son, thank you for being always proud and believing in me no matter what the results are.",
-    image: "/Users/maryaza3/Desktop/dad_birthday_memory_site_v3/assets/Mohammedimage.png",
+    image:"assets/mohammed.png",
     imageAlt: "Mohammed Almahdi's memory photograph placeholder",
     signature: "With love, Mohammed Almahdi"
   },
@@ -74,7 +74,7 @@ const pages = [
     kicker: "A memory from Aman",
     title: "My all time favourite hero",
     text: "Thank you for being the person who is always there and shows me how best things can be accomplished, following your lead, daddy !",
-    image: "/Users/maryaza3/Desktop/dad_birthday_memory_site_v3/assets/Amanimage.png",
+    image: "assets/aman.png",
     imageAlt: "Aman's memory photograph placeholder",
     signature: "With love, Aman"
   },
@@ -83,7 +83,7 @@ const pages = [
     kicker: "A memory from Yaman",
     title: "My daddy is a superior dad !",
     text: "Dad, I'm not good with expresing myself but I really want you to know that I am super proud of you, and by the way, I LOVE YOU DADDDD",
-    image: "/Users/maryaza3/Desktop/dad_birthday_memory_site_v3/assets/Screenshot 2026-07-24 at 5.39.10 PM.png",
+    image: "assets/yaman.jpeg",,
     imageAlt: "Yaman's memory photograph placeholder",
     signature: "With love, Yaman"
   },
@@ -98,7 +98,7 @@ const pages = [
     type: "back",
     kicker: "With love, always",
     title: "For every chapter still to come",
-    text: "Happy 45th Birthday",
+    text: "Happy 46th Birthday",
     signature: "From all of us"
   }
 ];
@@ -188,7 +188,7 @@ function pageMarkup(page, side = "left") {
   if (page.type === "back") {
     return `
       <div class="page-inner page-inner--center page-inner--back">
-        <div class="cover-mark">45</div>
+        <div class="cover-mark">46</div>
         <p class="page-kicker">${page.kicker}</p>
         <h3 class="page-title">${page.title}</h3>
         <div class="heart-line"></div>
