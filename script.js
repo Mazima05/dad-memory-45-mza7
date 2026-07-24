@@ -16,8 +16,8 @@ const pages = [
     type: "audioMemory",
     kicker: "A message from Mom",
     title: "A voice from the heart",
-    text:" ",
-    image:"assets/grandma.png",
+    text: " ",
+    image: "assets/grandma.png",
     audio: "assets/grandma-message.mp3",
     imageAlt: "Grandma's photograph",
     signature: "With all my love, Son"
